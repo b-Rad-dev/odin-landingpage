@@ -1,1 +1,27 @@
 /* style.css */
+
+body {
+    background: #1f2937;
+    color: #e5e7eb;
+    font-family: roboto, verdana, sans-serif
+}
+
+.header {
+    margin-top: -10px;
+    padding: 0px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .logo {
+     font-size: 24px;
+     color: #F9FAF8;
+ }
+
+ul {
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 50px;
+}
