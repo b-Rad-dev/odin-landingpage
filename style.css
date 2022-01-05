@@ -2,12 +2,11 @@
 
 body {
     background: #1f2937;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, verdana, sans-serif
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, verdana, sans-serif
 }
 
 .header {
-    margin-top: -10px;
-    padding: 0px 160px;
+    padding: 1px 160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,6 +121,7 @@ button {
 .quote {
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1f2937;
     max-width: 800px;
     display: flex;
@@ -133,4 +133,55 @@ button {
     font-size: 30px;
     font-weight: bold;
     color: #1f2937;
+}
+
+.calltoaction {
+    background: white;
+    padding: 96px;
+    margin: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.ctabox {
+    background: #3882f6;
+    border-radius: 10px;
+    width: 750px;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.ctaheader {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+
+}
+
+.ctasubtext {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.ctasignup {
+    color: #f9faf8;
+    font-size: 16px;
+    width: 120px;
+    padding: 5px
+}
+
+.button2 {
+    border: 2px solid white
+}
+
+.footer {
+    background-color: #1f2937;
+    margin: 10px;
+    color: #e5e7eb;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px;
 }
